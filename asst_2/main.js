@@ -18,7 +18,7 @@ displayedImage.src = fav.target.src;
     
 /* Wiring up the Darken/Lighten button */
 
-btn.onclick = function() {
+button.onclick = function() {
     const btnclass = btn.getAttribute('class');
     if (btnclass === 'dark') {
       btn.setAttribute('class','light');
